@@ -1,5 +1,7 @@
 # spring-boot-kafka
 
+Download Kafka from https://www.apache.org/dyn/closer.cgi?path=/kafka/2.4.1/kafka_2.12-2.4.1.tgz
+and unzip it.
 
 * Start Zookeeper Server
 >.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
