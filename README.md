@@ -15,16 +15,16 @@ and unzip it.
 * Create a producer for topic K_TOPIC
 >.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic K_TOPIC
 
-Hello Kafka
+>Hello Kafka
 
 * Create a consumer for a topic K_TOPIC
 >.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic K_TOPIC --from-beginning
 
-Hello Kafka
+>Hello Kafka
 
 * Delete a topic
 >.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --delete --topic K_TOPIC
 
-Topic K_TOPIC is marked for deletion.
+>Topic K_TOPIC is marked for deletion.
 
-Note: This will have no impact if delete.topic.enable is not set to true.
+>Note: This will have no impact if delete.topic.enable is not set to true.
