@@ -22,9 +22,9 @@ Hello Kafka
 
 Hello Kafka
 
-Delete a topic
+* Delete a topic
 >.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --delete --topic K_TOPIC
 
-Topic SNI_TOPIC is marked for deletion.
+Topic K_TOPIC is marked for deletion.
 
 Note: This will have no impact if delete.topic.enable is not set to true.
